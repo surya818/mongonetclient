@@ -1,4 +1,3 @@
-C:\Users\SuryaRekha\source\repos\MongoDBConnection\MongoDBConnection\obj\Debug\netcoreapp2.2\MongoDBConnection.csprojAssemblyReference.cache
 C:\Users\SuryaRekha\source\repos\MongoDBConnection\MongoDBConnection\obj\Debug\netcoreapp2.2\MongoDBConnection.AssemblyInfoInputs.cache
 C:\Users\SuryaRekha\source\repos\MongoDBConnection\MongoDBConnection\obj\Debug\netcoreapp2.2\MongoDBConnection.AssemblyInfo.cs
 C:\Users\SuryaRekha\source\repos\MongoDBConnection\MongoDBConnection\obj\Debug\netcoreapp2.2\MongoDBConnection.csproj.CoreCompileInputs.cache

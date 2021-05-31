@@ -1,5 +1,8 @@
 ﻿using System;
 using System.IO;
+using System.Threading.Tasks;
+using MongoDB.Bson;
+using MongoDB.Driver;
 using MongoDBConnection.utils;
 using Newtonsoft.Json;
 using Risk.Regression.Test.Contract.Utils;
@@ -8,7 +11,7 @@ namespace MongoDBConnection
 {
     class Program
     {
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             Console.WriteLine("Hello World!");
             string configPath = "/app/secret.json";
@@ -23,6 +26,14 @@ namespace MongoDBConnection
             var client = dbutils.CreateDocumentDbClient(@pemPath);
             Console.WriteLine("Server description"+client.Cluster.Description);
             Console.WriteLine("ClusterId" + client.Cluster.ClusterId);
+            var dbName = "risk-docdb-stage-cluster";
+            var database = dbutils.OpenDatabase(client, dbName);
+            var records = database.GetCollection<BsonDocument>("features");
+            var query = "beneficiaryAccountId/" + "";
+            Console.WriteLine("Document DB Filter query: " + query);
+            var filter = Builders<BsonDocument>.Filter.Eq("_id", query);
+            Console.WriteLine("Document DB Filter query: " + filter.ToJson());
+            await records.DeleteManyAsync(filter);
 
         }
     }
