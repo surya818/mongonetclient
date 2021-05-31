@@ -1,0 +1,12 @@
+C:\Users\SuryaRekha\source\repos\MongoDBConnection\MongoDBConnection\obj\Debug\netcoreapp2.2\MongoDBConnection.csprojAssemblyReference.cache
+C:\Users\SuryaRekha\source\repos\MongoDBConnection\MongoDBConnection\obj\Debug\netcoreapp2.2\MongoDBConnection.AssemblyInfoInputs.cache
+C:\Users\SuryaRekha\source\repos\MongoDBConnection\MongoDBConnection\obj\Debug\netcoreapp2.2\MongoDBConnection.AssemblyInfo.cs
+C:\Users\SuryaRekha\source\repos\MongoDBConnection\MongoDBConnection\obj\Debug\netcoreapp2.2\MongoDBConnection.csproj.CoreCompileInputs.cache
+C:\Users\SuryaRekha\source\repos\MongoDBConnection\MongoDBConnection\bin\Debug\netcoreapp2.2\MongoDBConnection.deps.json
+C:\Users\SuryaRekha\source\repos\MongoDBConnection\MongoDBConnection\bin\Debug\netcoreapp2.2\MongoDBConnection.runtimeconfig.json
+C:\Users\SuryaRekha\source\repos\MongoDBConnection\MongoDBConnection\bin\Debug\netcoreapp2.2\MongoDBConnection.runtimeconfig.dev.json
+C:\Users\SuryaRekha\source\repos\MongoDBConnection\MongoDBConnection\bin\Debug\netcoreapp2.2\MongoDBConnection.dll
+C:\Users\SuryaRekha\source\repos\MongoDBConnection\MongoDBConnection\bin\Debug\netcoreapp2.2\MongoDBConnection.pdb
+C:\Users\SuryaRekha\source\repos\MongoDBConnection\MongoDBConnection\obj\Debug\netcoreapp2.2\MongoDBConnection.dll
+C:\Users\SuryaRekha\source\repos\MongoDBConnection\MongoDBConnection\obj\Debug\netcoreapp2.2\MongoDBConnection.pdb
+C:\Users\SuryaRekha\source\repos\MongoDBConnection\MongoDBConnection\obj\Debug\netcoreapp2.2\MongoDBConnection.genruntimeconfig.cache

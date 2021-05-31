@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\SuryaRekha\\source\\repos\\MongoDBConnection\\MongoDBConnection\\MongoDBConnection.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\SuryaRekha\\source\\repos\\MongoDBConnection\\MongoDBConnection\\MongoDBConnection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SuryaRekha\\source\\repos\\MongoDBConnection\\MongoDBConnection\\MongoDBConnection.csproj",
+        "projectName": "MongoDBConnection",
+        "projectPath": "C:\\Users\\SuryaRekha\\source\\repos\\MongoDBConnection\\MongoDBConnection\\MongoDBConnection.csproj",
+        "packagesPath": "C:\\Users\\SuryaRekha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SuryaRekha\\source\\repos\\MongoDBConnection\\MongoDBConnection\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SuryaRekha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://rebtel.pkgs.visualstudio.com/_packaging/rebtel-backend/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Hangfire.Mongo": {
+              "target": "Package",
+              "version": "[0.7.17, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.8, )",
+              "autoReferenced": true
+            },
+            "SSH.NET": {
+              "target": "Package",
+              "version": "[2016.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.409\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "alpine-x64": {
+          "#import": []
+        }
+      }
+    }
+  }
+}
