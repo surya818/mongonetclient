@@ -29,11 +29,12 @@ namespace MongoDBConnection
             var dbName = "risk-docdb-stage-cluster";
             var database = dbutils.OpenDatabase(client, dbName);
             var records = database.GetCollection<BsonDocument>("features");
-            var query = "beneficiaryAccountId/" + "";
+            var query = "beneficiaryAccountId/" + "0690000031";
             Console.WriteLine("Document DB Filter query: " + query);
             var filter = Builders<BsonDocument>.Filter.Eq("_id", query);
             Console.WriteLine("Document DB Filter query: " + filter.ToJson());
             await records.DeleteManyAsync(filter);
+            Console.WriteLine("Delete Successful!!!");
 
         }
     }

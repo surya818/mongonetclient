@@ -9,3 +9,4 @@ C:\Users\SuryaRekha\source\repos\MongoDBConnection\MongoDBConnection\bin\Debug\n
 C:\Users\SuryaRekha\source\repos\MongoDBConnection\MongoDBConnection\obj\Debug\netcoreapp2.2\MongoDBConnection.dll
 C:\Users\SuryaRekha\source\repos\MongoDBConnection\MongoDBConnection\obj\Debug\netcoreapp2.2\MongoDBConnection.pdb
 C:\Users\SuryaRekha\source\repos\MongoDBConnection\MongoDBConnection\obj\Debug\netcoreapp2.2\MongoDBConnection.genruntimeconfig.cache
+C:\Users\SuryaRekha\source\repos\MongoDBConnection\MongoDBConnection\obj\Debug\netcoreapp2.2\MongoDBConnection.csprojAssemblyReference.cache
