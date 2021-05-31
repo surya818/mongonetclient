@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Runtime.InteropServices;
 using System.Threading.Tasks;
 using MongoDB.Bson;
 using MongoDB.Driver;
@@ -14,8 +15,13 @@ namespace MongoDBConnection
         static async Task Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            string configPath = "/app/secret.json";
-            string pemPath = "/app/ssh.pem";
+            string configPath = "C:\\Data\\secret.json";
+            string pemPath = "C:\\Data\\ssh.pem";
+            if (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
+            {
+                configPath = "/app/secret.json";
+                pemPath = "/app/ssh.pem";
+            }
             string jsonStr = File.ReadAllText(configPath);
             Console.WriteLine(jsonStr);
             Root connection = JsonConvert.DeserializeObject<Root>(jsonStr);
